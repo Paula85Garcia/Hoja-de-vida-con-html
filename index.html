@@ -1,81 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de vida </title>
-    <style>
-        body{
-            font-family:'Times New Roman', Times, serif
-            margin :  20px
-            padding: 20px
-            border: 1px solid #ccc
-            border-radius :5px
-            background-color : #FF99CC 
-            }
-            h1{
-                color:rgb(94, 235, 245);
-
-            
-            }
-            h2{
-                color: blue;
-            }
-            .section{
-                margin-bottom: 20px;
-            }
-            .contact-info, .skills, .stdy{
-                margin: 10px 0;
-            }
-            .profile-image {
-                width : 150 px;
-                height: 150px;
-                border-radius: 50px;
-                margin-bottom: 20px;
-            }
-            .header{
-                text-align: center;
-                margin-bottom: 30px;
-            }
-
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles/index.css" />
+  <title>Hoja de Vida - Paula Michell</title>
 </head>
 <body>
-    <div class="header">
-        <img src="paula.jpeg" alt="foto de presentacion" class="profile-image">
-        
-        <h1>Paula Michell Garcia Valencia </h1>
-    </di>
-   
-    <div class="contact-info">
-        <h2>Informacion de Contacto</h2>
-        <p>Email:michellgarciagarcia85@gmail.com</p>
-        <p>Telefono:3058267039</p>
-        <p>Direccion:Ahitamara mz2 csa 2 piso 1,Armenia Quindio</p>
-    </div>
-    <div class="skills">
-        <h2>Habilidades </h2>
+  <div class="container">
+    <header class="header">
+      <img src="assets/images/paula.png" alt="Foto de Paula" class="profile-image"/>
+      <h1>Paula Michell Garcia Valencia</h1>
+      <h2>Estudiante de Análisis y Desarrollo de Software</h2>
+    </header>
+
+    <main class="content">
+      <section class="card">
+        <h3>Contacto</h3>
+        <p><strong>Teléfono:</strong> 3058267039</p>
+        <p><strong>Email:</strong> michellgarciagarcia85@gmail.com</p>
+        <p><strong>Dirección:</strong> Ahitamara MZ2 Csa 2 Piso 1, Armenia, Quindío</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/paula85Garcia" target="_blank">github.com/paula85Garcia</a></p>
+      </section>
+
+      <section class="card">
+        <h3>Sobre mí</h3>
+        <p>
+          Estudiante de Tecnología en Análisis y Desarrollo de Software (SENA), con formación integral, pensamiento lógico y capacidad para trabajar en equipos interdisciplinarios. Conocimientos en Java, JavaScript, TypeScript, HTML, CSS, Git y metodologías ágiles como Scrum. Apasionada por el aprendizaje continuo y el desarrollo de soluciones eficientes.
+        </p>
+      </section>
+
+      <section class="card">
+        <h3>Educación</h3>
         <ul>
-            <li>Empatia</li>
-            <li> Gestion del tiempo</li>
-            <li>resiliencia</li>
-            <li>resolucion de problemas</li>
+          <li><strong>Tecnología en ADSO</strong> - SENA (2024)</li>
+          <li><strong>Bachiller</strong> - Colegio Floridablanca</li>
         </ul>
-    </div>
-    <div class="experience">
-        <h2>Experiencia laboral</h2>
-        <p><strong>Cajera</strong> - 20 de marzo del 2023 a 20 de junio de 2023</p>
-        <p>Aprendi a liderar, atencion al cliente y obtuve Experiencia</p>
-    </div>
+      </section>
 
-    <diV class="study">
-        <h2>Educacion</h2>
-        <p><strong>Bachiller</strong> - Colegio Floridablanca</p>
-        <P></P>
+      <section class="card">
+        <h3>Habilidades Técnicas</h3>
+        <ul>
+          <li>Lenguajes: JavaScript, Java, HTML, CSS, TypeScript</li>
+          <li>Frameworks / Herramientas: Git, GitHub, VS Code, Eclipse</li>
+          <li>Diseño de Software: Patrones como MVC</li>
+          <li>Metodologías Ágiles: Scrum</li>
+          <li>Otros: Notion, Excel, Trello, Jira</li>
+        </ul>
+      </section>
 
-    </diV>
+      <section class="card">
+        <h3>Habilidades Blandas</h3>
+        <ul>
+          <li>Organización y gestión del tiempo</li>
+          <li>Comunicación efectiva</li>
+          <li>Pensamiento analítico</li>
+          <li>Trabajo en equipo</li>
+          <li>Actitud proactiva</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Español: Nativo</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h3>Experiencia Laboral</h3>
+        <p><strong>Cajera</strong> (Marzo - Junio 2023)</p>
+        <p>Desarrollé habilidades de liderazgo, atención al cliente y resolución de problemas en situaciones reales.</p>
+      </section>
+
+      <section class="card">
+        <h3>Referencias</h3>
+        <ul>
+          <li><strong>Ginna Castañeda</strong> - 3132333715</li>
+          <li><strong>Elver Garcia</strong> - 302 8294792</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Paula Michell Garcia Valencia</p>
+  </footer>
 </body>
 </html>
-
-  
- 
